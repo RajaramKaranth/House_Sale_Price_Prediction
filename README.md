@@ -33,10 +33,6 @@ In this assignment
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 - Few variables are shown to be having high numberof null values. However they were indicating one of the valid values of the feature and not null.
 - The skew for SalePrice is >1 that indicates the data we have is highly skewed. The Kurtosis for SalePrice is >6, indicates the distribution is tall and the data has more outliers.
 - During the analysis, it appears that the target, SalePrice, is very skewed and a transformation like a logarithm would make it more normally distributed such that model can perform better w-ith normally distributed targets. 
